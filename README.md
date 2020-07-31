@@ -1,21 +1,13 @@
-# Hobby projects rest starter-kit
+# Social Media dashboard
 
-[create-react-app](https://create-react-app.dev/) with [json-server](https://www.npmjs.com/package/json-server) (ﾉﾟ▽ﾟ)ﾉ :sparkles: 
+_Current design of the component:_
+<img style="border-radius: 5px" src="https://i.ibb.co/0C721rL/dash.png"/>
 
-## Backend
+All of the data on the page comes from the `data.js` file within the home route.
 
-- `cd backend`
-- `yarn start`
+- [x] Dynamic data
+- [x] Responsive
+- [ ] Active (hover) styling
+- [ ] Light theme
 
-_Server will start on :3001_
-
-## Frontend
-
-- `cd frontend`
-- `yarn start`
-
-_Frontend will start on :3000_
-
-## Todo
-
-- [x] Add styled-components global stylesheet
+[Social media dashboard coding challenge](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H).
