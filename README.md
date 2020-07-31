@@ -4,6 +4,8 @@ _Current design of the dashboard:_
 
 All of the data on the page comes from the `data.js` file within the home route.
 
+Used: [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html) / [styled-components](https://styled-components.com/)
+
 - [x] Dynamic data
 - [x] Responsive
 - [ ] Active (hover) styling
