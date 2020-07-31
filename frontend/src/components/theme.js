@@ -9,27 +9,40 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const theme = {
+export const theme = {
   // Layout
-  gutter: 5,
-  maxWidth: 950,
+  gutter: 20,
+  maxWidth: 1440,
   breakpoints: {
-    sm: 768,
-    md: 992,
-    lg: 1200,
+    sm: 250,
+    md: 868,
+    lg: 1440,
   },
 
   // Text
   fonts: {
-    body: `'Rubik', sans-serif`,
-    heading: `'Rubik', sans-serif`,
+    body: `'Inter', sans-serif`,
+    heading: `'Inter', sans-serif`,
+    size: "14px",
+    boldWeight: 700,
+    lightWeight: 400,
   },
 
   // Colors
   colors: {
-    primary: "red",
-    secondary: "green",
-    bodyBackground: "#f2f7ff",
+    primary: "hsl(163, 72%, 41%)",
+    secondary: "hsl(356, 69%, 56%)",
+
+    facebook: "hsl(208, 92%, 53%)",
+    twitter: "hsl(203, 89%, 53%)",
+    instagram: "hsl(37, 97%, 70%)",
+    youtube: "hsl(348, 97%, 39%)",
+
+    bodyBackground: "hsl(230, 17%, 14%)",
+    topBackground: "hsl(232, 19%, 15%)",
+    cardBackground: "hsl(228, 28%, 20%)",
+    dimText: "hsl(228, 34%, 66%)",
+    text: "hsl(0, 0%, 100%)",
   },
 };
 
